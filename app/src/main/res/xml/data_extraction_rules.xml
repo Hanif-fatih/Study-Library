@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <domain-config cloud-backup="true">
+        <exclude-backup>
+            <path value="shared_prefs/com.google.firebase.crashlytics.prefs.xml" />
+        </exclude-backup>
+    </domain-config>
+</data-extraction-rules>
